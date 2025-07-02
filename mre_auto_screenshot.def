@@ -1,0 +1,7 @@
+; mre_auto_screenshot.def : Declares the module parameters for the DLL.
+
+LIBRARY      "mre_auto_screenshot"
+DESCRIPTION  'mre_auto_screenshot Windows Dynamic Link Library'
+
+EXPORTS
+    vm_entry @1
